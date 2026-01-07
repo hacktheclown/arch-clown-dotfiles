@@ -1,4 +1,4 @@
-# Welcome to Hack the Clown dotfiles
+# Welcome to Hack the Clown Dotfiles
 
 This repository contains my dotfiles and other configurations. You can see
 more details if you visit any videos in my [channel](https://www.youtube.com/@hacktheclown).
