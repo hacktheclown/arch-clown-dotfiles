@@ -1,0 +1,12 @@
+# More information here: https://docs.atuin.sh/configuration/config
+
+style = "full"
+enter_accept = false
+records = true
+db_path = "changeme"
+
+[theme]
+name = "clown-theme"
+# name = "autumn"
+debug = true
+max_depth = 10
