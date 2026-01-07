@@ -1,0 +1,12 @@
+[theme]
+name = "clown-theme"
+
+[colors]
+Base = "#8d9197"
+Title = "#c4c3c4"
+Guidance = "#80857a" # timestamp
+AlertInfo = "#c4c3c4"
+AlertWarn = "#b6c03f"
+AlertError = "#ffffff" # command highlight and elapsed time
+Important = "#3a353a"
+Annotation = "#3a353a"
