@@ -61,11 +61,8 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 bindsym $mod+k kill
 bindsym $mod+Return exec terminator
-# HTC_NOTE: - the `-dpi 192`` may not be applicable for you, you can change it or remove
-#           it entirely.
 bindsym $mod+shift+d exec --no-startup-id rofi \
                           -show run \
-                          -dpi 192 \
                           -config /home/changeme/.config/rofi/rofi.rasi
 
 #####################
@@ -76,9 +73,6 @@ bindsym $mod+shift+d exec --no-startup-id rofi \
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xsettingsd
 exec_always --no-startup-id feh --bg-fill /home/changeme/Pictures/wallpaper.jpg
-# Use this for VMWare guests (e.g Vmware fusion)
-# exec_always --no-startup-id /usr/bin/vmware-user-suid-wrapper                     # Make sure copy paste between host and guest and vice versa is working
-# exec_always --no-startup-id /usr/bin/xrandr --output Virtual-1 --mode 1792x994    # Make sure guest size is correct
 exec_always --no-startup-id /usr/bin/picom -f --backend xrender \
                                               --config /home/changeme/.config/picom/picom.conf \
                                               --fade-in-step=1 \
